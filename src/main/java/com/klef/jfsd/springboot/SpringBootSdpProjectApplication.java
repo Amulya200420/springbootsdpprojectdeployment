@@ -1,6 +1,6 @@
 package com.klef.jfsd.springboot;
 
-import org.hibernate.internal.build.AllowSysOut;
+
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;

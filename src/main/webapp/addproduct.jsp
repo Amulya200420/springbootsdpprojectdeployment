@@ -17,7 +17,7 @@
 	<link href="css/index.css" rel="stylesheet">
    
 </head>
-<%@ include file="sellerloginafter.jsp" %>
+
 
  <div class="carousel-inner">
     <div class="carousel-item active">

@@ -8,10 +8,10 @@ import org.springframework.stereotype.Service;
 
 import com.klef.jfsd.springboot.model.Admin;
 import com.klef.jfsd.springboot.model.Customer;
-import com.klef.jfsd.springboot.model.Seller;
+
 import com.klef.jfsd.springboot.repository.AdminRepository;
 import com.klef.jfsd.springboot.repository.CustomerRepository;
-import com.klef.jfsd.springboot.repository.SellerRepository;
+
 
 @Service
 public class AdminServiceImpl implements AdminService
@@ -22,8 +22,7 @@ public class AdminServiceImpl implements AdminService
     @Autowired
 	private CustomerRepository customerRepository;
     
-    @Autowired
-    private SellerRepository sellerRepository;
+   
 	@Override
 	
 	public List<Customer> viewallcustomers() {
@@ -74,16 +73,6 @@ public class AdminServiceImpl implements AdminService
 		return adminRepository.checkadminlogin(uname, pwd);
 	}
 
-	@Override
-	public Seller viewsellerbyid(int sid) {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	@Override
-	public List<Seller> viewallsellers()
-	{
-		return sellerRepository.findAll();
-	}
+	
 
 }

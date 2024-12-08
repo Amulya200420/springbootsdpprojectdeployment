@@ -47,16 +47,18 @@
 <nav>
                   
                    
+                    
                       <ul >
-                        <li class="dropdown">
-                          <a href="javascript:void(0)" class="dropbtn">Career Guidance</a>
-                          <ul class="dropdown-content">
-                              <li><a href="">After 10th</a></li>
-                              <li><a href="">After 12th</a></li>
-                              <li><a href=""> After College/UG/PG</a></li>
-                          </ul>
-                        </li>
-                        <li class="dropdown">
+                      <li class="scroll-to-section"><a href="contactus">Contact Us</a></li>
+                       <li class="scroll-to-section"><a href="details1">Counselors</a></li> 
+                       <li class="dropdown">
+                              <a href="javascript:void(0)" class="dropbtn">Pages</a>
+                              <ul class="dropdown-content">
+                                  <li><a href="">Upcoming Meetings</a></li>
+                                  <li><a href="">Meeting Details</a></li>
+                              </ul>
+                          </li>
+                          <li class="dropdown">
                           <a href="javascript:void(0)" class="dropbtn">Study Abroad</a>
                           <ul class="dropdown-content">
                               <li><a href="meetings.html">Guidance Program</a></li>
@@ -66,16 +68,19 @@
                               <li><a href="">Canada</a></li>
                           </ul>
                       </li>
-                          <li class="dropdown">
-                              <a href="javascript:void(0)" class="dropbtn">Pages</a>
-                              <ul class="dropdown-content">
-                                  <li><a href="">Upcoming Meetings</a></li>
-                                  <li><a href="">Meeting Details</a></li>
-                              </ul>
-                          </li>
-                          <li class="scroll-to-section"><a href="#courses">Counselors</a></li> 
-                          <li class="scroll-to-section"><a href="contactus">Contact Us</a></li> 
-                      </ul>        
+                        <li class="dropdown">
+                          <a href="javascript:void(0)" class="dropbtn">Career Guidance</a>
+                          <ul class="dropdown-content">
+                              <li><a href="counselor1.jsp">After 10th</a></li>
+                              <li><a href="counselor2.jsp">After 12th</a></li>
+                              <li><a href="counselor3.jsp"> After College/UG/PG</a></li>
+                          </ul>
+                        </li>
+                        
+                          
+                         
+                           
+                      </ul>  
                     
                   </nav>
 
